@@ -7,3 +7,7 @@ test('1 is a string', () => {
 test('3 is fizz', () => {
     expect(fizzbuzz(3)).toBe('fizz');
 })
+
+test('5 is buzz', () => {
+    expect(fizzbuzz(5)).toBe('buzz');
+})
