@@ -1,7 +1,9 @@
 const fizzbuzz = (num) => {
-    if (!(num % 3)) return 'fizz';
-    if (!(num % 5)) return 'buzz';
-    return num.toString();
+    let fizzorbuzz = '';
+    if (!(num % 3)) fizzorbuzz+='fizz';
+    if (!(num % 5)) fizzorbuzz+='buzz';
+    if (!(fizzorbuzz.length)) return num.toString();
+    return fizzorbuzz;
 }
 
 module.exports = fizzbuzz;
